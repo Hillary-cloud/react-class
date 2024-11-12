@@ -1,0 +1,15 @@
+.welcome-message{
+    background-color: yellow;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.card{
+    width: 40%;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
