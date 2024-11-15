@@ -1,22 +1,22 @@
 import React from 'react'
 
+
+
+const menuItems = [
+  {id: 1, links: 'Home', url: '/'},
+  {id: 2, links: 'About', url: '/about'},
+  {id: 3, links: 'Contact', url: '/contact'},
+  {id: 4, links: 'Services', url: '/services'}
+]
 const Header = () => {
-    const welcomeMessage = {
-        backgroundColor: 'green',
-        color: 'white',
-        width: '50%',
-        borderRadius : '5px'
-    }
+
   return (
-    <div>
-      <ul>
-        <li>Home</li>
-        <li>About</li>
-      </ul>
-
-
-
-      <h1 style={welcomeMessage}>Welcome to our second react class</h1>
+    <div style={{display: 'flex', gap: '10px'}}>
+     {
+      menuItems.map((menuItem) => (
+        <p key={menuItem.id}><a href={menuItem.url}>{menuItem.links}</a></p>
+      ))
+     }
     </div>
   )
 }
