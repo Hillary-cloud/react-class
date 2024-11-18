@@ -3,6 +3,8 @@ import Student from "./Student";
 import man1 from "../src/assets/man1.jpg";
 import man2 from "../src/assets/man2.jpg";
 import woman1 from "../src/assets/woman1.jpg";
+import Event from "./Event";
+import MyComponent from "./MyComponent";
 
 // Lists and keys
 
@@ -31,6 +33,9 @@ const Home = () => {
           />
         ))}
       </div>
+
+      <Event />
+      <MyComponent />
     </div>
   );
 };
