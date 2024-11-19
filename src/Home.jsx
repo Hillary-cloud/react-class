@@ -5,6 +5,9 @@ import man2 from "../src/assets/man2.jpg";
 import woman1 from "../src/assets/woman1.jpg";
 import Event from "./Event";
 import MyComponent from "./MyComponent";
+import OnChangeComponent from "./OnChangeComponent";
+import OnChangeTwo from "./OnChangeTwo";
+import ColorPicker from "./ColorPicker";
 
 // Lists and keys
 
@@ -36,6 +39,9 @@ const Home = () => {
 
       <Event />
       <MyComponent />
+      <OnChangeComponent />
+      <OnChangeTwo /> 
+      <ColorPicker />
     </div>
   );
 };
