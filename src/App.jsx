@@ -6,6 +6,7 @@
 import { useState} from "react";
 import Revision from "./Revision"
 import Modal from "./modal/Modal";
+import UseEffects from "./useEffects/UseEffects";
 
 function App (){
   const [count, setCount] = useState(0);
@@ -23,6 +24,7 @@ function App (){
         <p>{count}</p>
         <button onClick={() => setCount((c) => c + 1)}>Count</button>
       </div>
+      <UseEffects />
      
   </div>
   )
