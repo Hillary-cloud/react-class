@@ -13,6 +13,7 @@ import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import {Route, Routes } from "react-router-dom";
 import Navbar from "./navbar/Navbar";
+import ComponentA from "./context/ComponentA";
 
 function App (){
   // const [count, setCount] = useState(0);
@@ -42,6 +43,7 @@ function App (){
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
         </Routes>
+        <ComponentA/>
      
   </div>
   )
